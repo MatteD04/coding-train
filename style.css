@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(72, 72, 254);
+    color: white;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.title{
+    justify-content: space-between;
+}
+.errors{
+    display: flex;
+    align-self: center;
+}
+.card{
+    width: calc((100% / 4) - 20px);
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
